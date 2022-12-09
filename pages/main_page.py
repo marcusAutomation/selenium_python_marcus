@@ -27,10 +27,7 @@ class MainPage(BasePage):
     #     self.find_element(*self.locator.SEARCH).send_keys(Keys.ENTER)
     #     return self.find_element(*self.locator.SEARCH_LIST).text
 
-    # def click_register_button(self):
-    #     self.find_element(*self.locator.REGISTER).click()
-    #     return SignUpBasePage(self.driver)
-    #
+
     # def click_sign_in_button(self):
     #     self.find_element(*self.locator.LOGIN).click()
     #     return LoginPage(self.driver)
