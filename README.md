@@ -36,8 +36,7 @@ class TestSignInPage(BaseTest):
         print("\n" + str(test_cases(4)))
         main_page = MainPage(self.driver)
         login_page = main_page.click_sign_in_button()
-        result = login_page.login_with_valid_user("valid_user")
-        self.assertIn("yourstore/home", result.get_url())
+        
 ```
 
 #### If you want to run all tests, you should type: 
