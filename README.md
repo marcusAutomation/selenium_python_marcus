@@ -7,7 +7,7 @@ Page-object-model (POM) is a pattern that you can apply it to develop efficient 
 ```python
 base_page.py
 class BasePage(object):
-    def __init__(self, driver, base_url='http://www.amazon.com/'):
+    def __init__(self, driver, base_url='https://martialapp.com/'):
         self.base_url = base_url
         self.driver = driver
         self.timeout = 30
