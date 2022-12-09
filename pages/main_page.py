@@ -32,6 +32,5 @@ class MainPage(BasePage):
     #     self.find_element(*self.locator.LOGIN).click()
     #     return LoginPage(self.driver)
 
-
 if __name__ == "__main__":
     unittest.main()
